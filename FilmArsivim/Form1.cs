@@ -17,7 +17,7 @@ namespace FilmArsivim
         {
             InitializeComponent();
         }
-        SqlConnection bgl = new SqlConnection(@"Data Source=GRANGER\SQLEXPRESS;Initial Catalog=FilmArsivi;Integrated Security=True");
+        SqlConnection bgl = new SqlConnection(@"Data Source=(local)\SQLEXPRESS;Initial Catalog=FilmArsivi;Integrated Security=True");
 
         public void filmlistesi()
         {
